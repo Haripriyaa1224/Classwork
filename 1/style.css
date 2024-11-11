@@ -1,0 +1,37 @@
+/* Universla Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+div{
+    border: 1px;
+    background-color: burlywood;
+}
+
+/* id selector */
+
+#p2{
+    color:red;
+    background-color:black;
+    font-weight: 300;
+}
+
+/* class selector */
+
+.li{
+    font-style: italic;
+}
+
+/* attribute */
+
+a[target="_blank"]{
+    color:blue;
+}
+/* Descendent selector */
+
+ul li{
+    text-decoration:line-through;
+}
